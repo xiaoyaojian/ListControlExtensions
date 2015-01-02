@@ -64,7 +64,6 @@ namespace ListControl.Extension
             TagBuilder label = new TagBuilder("label");
             label.MergeAttribute("for", id);
             label.SetInnerText(labelText);
-
             TagBuilder input = new TagBuilder("input");
             input.GenerateId(id);
             input.MergeAttribute("name", name);
