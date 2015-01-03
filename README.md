@@ -7,7 +7,7 @@ Getting Started
 =====================
 1.Open your Nuget package Manager dialog 
 
-2.Search by this key:ListControlExtension
+2.Search by this keyword : **ListControlExtension**
 
 3.Install it,and now,you can beginnning to use this extension use statement like"Html.CheckBoxListFor(....." in your view page
 
