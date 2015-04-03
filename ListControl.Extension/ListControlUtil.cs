@@ -23,7 +23,7 @@ namespace ListControl.Extension
                     result= GenerateCheckBoxList(container, name, items, currentValues,disabled);
                     break;
                 case ControlType.Radio:
-                    string currentValue = stateValue as string;
+                    string currentValue = stateValue.ToString();
                     result= GenerateRadioButtonList(container, name, items, currentValue,disabled);
                     break;
             }
